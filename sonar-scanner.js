@@ -13,4 +13,3 @@ sonarqubeScanner({
     'sonar.test.inclusions': '**/*.test.js,**/*.spec.js,**/*.test.jsx,**/*.spec.jsx',
   },
 }, () => process.exit());
-
