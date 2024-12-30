@@ -1,11 +1,11 @@
 const { scan } = require('sonarqube-scanner');
 
 scan({
-    serverUrl: "http://your-sonar-server",
+    serverUrl: "http://3.107.178.131:9000/",
     options: {
-        "sonar.projectKey": "your-project-key",
+        "sonar.projectKey": "Docker-React",
         "sonar.sources": "./src",
-        "sonar.login": "your-login-token",
+        "sonar.login": "sqb_857d15a7a715a0538d4aa2025f95ac62191b71bd",
     }
 }, () => {
     console.log("SonarQube scan completed successfully!");
