@@ -1,6 +1,5 @@
-const sonarqubeScanner = require('sonarqube-scanner');
-
-sonarqubeScanner({
+const scannerf = require('sonarqube-scanner');
+scannerf({
   serverUrl: 'http://3.107.178.131:9000/', // Replace with your SonarQube server URL
   token: 'sqp_c443a340d90eb8777528edacbeeaa472a6dcb7f4', // Replace with your SonarQube authentication token
   options: {
