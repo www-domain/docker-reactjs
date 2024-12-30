@@ -1,11 +1,13 @@
-const scanner = require('sonarqube-scanner');
+const { scan } = require('sonarqube-scanner');
 
-scanner({
-    serverUrl: "http://your-sonarqube-server",
+scan({
+    serverUrl: "http://your-sonar-server",
     options: {
         "sonar.projectKey": "your-project-key",
         "sonar.sources": "./src",
-        "sonar.login": "your-login-token"
+        "sonar.login": "your-login-token",
     }
-}, () => process.exit());
-
+}, () => {
+    console.log("SonarQube scan completed successfully!");
+    process.exit();
+});
