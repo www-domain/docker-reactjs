@@ -1,5 +1,6 @@
-const scanner = require('sonarqube-scanner');
-scanner({
+const sonarqubeScanner = require('sonarqube-scanner');
+
+sonarqubeScanner({
   serverUrl: 'http://3.107.178.131:9000/', // Replace with your SonarQube server URL
   token: 'sqp_c443a340d90eb8777528edacbeeaa472a6dcb7f4', // Replace with your SonarQube authentication token
   options: {
@@ -10,6 +11,7 @@ scanner({
     'sonar.tests': 'src',
     'sonar.javascript.lcov.reportPaths': 'coverage/lcov.info',
     'sonar.exclusions': 'node_modules/**',
-    'sonar.test.inclusions': '**/*.test.js,**/*.spec.js,**/*.test.jsx,**/*.spec.jsx'
+    'sonar.test.inclusions': '**/*.test.js,**/*.spec.js,**/*.test.jsx,**/*.spec.jsx',
   },
 }, () => process.exit());
+
