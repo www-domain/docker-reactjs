@@ -8,7 +8,6 @@ sonarqubeScanner({
     'sonar.projectName': 'Docker React',
     'sonar.projectVersion': '1.0',
     'sonar.sources': 'src',
-    'sonar.tests': 'src',
     'sonar.javascript.lcov.reportPaths': 'coverage/lcov.info',
     'sonar.exclusions': 'node_modules/**',
     'sonar.test.inclusions': '**/*.test.js,**/*.spec.js,**/*.test.jsx,**/*.spec.jsx',
