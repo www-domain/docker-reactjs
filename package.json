@@ -11,10 +11,10 @@
     "react-sparklines": "^1.7.0"
   },
   "scripts": {
-    "start": "react-scripts start", 
-    "build": "react-scripts build", 
-    "test": "react-scripts test --env=jsdom", 
-    "eject": "react-scripts eject",
+   "start": "react-app-rewired start", 
+    "build": "react-app-rewired build", 
+    "test": "react-app-rewired test --env=jsdom", 
+    "eject": "react-app-rewired eject", 
     "sonar": "node sonar-scanner.js"
   },
   "devDependencies": {
