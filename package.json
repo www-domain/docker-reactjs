@@ -18,7 +18,7 @@
     "sonar": "node sonar-scanner.js"
   },
   "devDependencies": {
-    "sonarqube-scanner": "^4.2.6"
+    "sonarqube-scanner": "^4.2.6",
     "react-app-rewired": "^2.1.9", 
     "@babel/preset-env": "^7.14.0", 
     "@babel/preset-react": "^7.14.0", 
