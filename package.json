@@ -11,13 +11,17 @@
     "react-sparklines": "^1.7.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "start": "react-scripts start", 
+    "build": "react-scripts build", 
+    "test": "react-scripts test --env=jsdom", 
     "eject": "react-scripts eject",
     "sonar": "node sonar-scanner.js"
   },
   "devDependencies": {
     "sonarqube-scanner": "^4.2.6"
+    "react-app-rewired": "^2.1.9", 
+    "@babel/preset-env": "^7.14.0", 
+    "@babel/preset-react": "^7.14.0", 
+    "babel-jest": "^27.0.0"
   }
 }
